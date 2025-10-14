@@ -7,7 +7,7 @@
 get_sulcus_image(name)
 }
 \arguments{
-\item{name}{Relative path inside the assets}
+\item{name}{Relative path inside the assets (e.g. "leftlat/S.C._left.png")}
 }
 \value{
 Character scalar: full path

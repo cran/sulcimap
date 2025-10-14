@@ -84,7 +84,7 @@ plot_sulci <- function(
     ...
 ) {
   # ---- hidden defaults (overridable if desired) ----
-  base_dir    <- get_sulcimap_assets_dir()  # lazy unzip on first use
+  base_dir    <- NULL
   scale_width <- "1000x"
   file_prefix <- "sulci"
   width_in    <- 14
@@ -98,6 +98,8 @@ plot_sulci <- function(
   if (!is.null(dots$width_in))    width_in    <- dots$width_in
   if (!is.null(dots$height_in))   height_in   <- dots$height_in
   if (!is.null(dots$dpi))         dpi         <- dots$dpi
+
+  if (is.null(base_dir)) base_dir <- get_sulcimap_assets_dir()
 
   # ---- helper: recolor one sulcus PNG ----
   recolor_sulcus <- function(sulcus_image, color) {

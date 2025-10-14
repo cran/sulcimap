@@ -10,6 +10,5 @@ get_sulcimap_assets_dir()
 Character scalar: full path to the root of extracted assets
 }
 \description{
-This will unzip the bundled assets into a per-user cache
-the first time it is called then return the cache path on subsequent calls
+Unzips the bundled assets into a cache (persistent for users, temporary under checks)
 }
