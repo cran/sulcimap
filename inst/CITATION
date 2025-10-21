@@ -1,0 +1,26 @@
+citHeader("To cite sulcimap in publications use:")
+
+ms <- person(
+  given  = "Mahan",
+  family = "Shafie",
+  email  = "mahan.shafie@unito.it",
+  role   = c("aut", "cre")
+)
+
+fp <- person(
+  given  = "Fabrizio",
+  family = "Pizzagalli",
+  email  = "fabrizio.pizzagalli@unito.it",
+  role   = "aut"
+)
+
+bibentry(
+  bibtype      = "Article",
+  title        = "sulcimap: an {R} library for mapping cortical folding patterns",
+  author       = c(ms, fp),
+  year         = "2025",
+  journal      = "Zenodo",
+  organization = "Zenodo",
+  url          = "https://doi.org/10.5281/zenodo.17131054",
+  doi          = "10.5281/zenodo.17131054"
+)

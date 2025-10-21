@@ -1,11 +1,12 @@
-caecf47e57ded199d456917d78238d19 *DESCRIPTION
+5283e91d26937e17da64612dc314a9ef *DESCRIPTION
 f8e586eac8850a1e3236f26fc579fe77 *LICENSE
 f0e26986e701869d8ee45f9d29d9ee79 *NAMESPACE
-99fe6f453956c418eaef6ff9510760b3 *NEWS.md
+08a4c5a187c5f33d14edfaecac7b3eff *NEWS.md
 f256c9d04268dd2c5c478d1ffecc24aa *R/assets.R
 9f57299d0e0eeb2810805798e9a0d680 *R/globals.R
 2a83b57d25e9d3e0fb4a7d748f28e210 *R/plot_sulci.R
 df6cc46bc7fae1a55b713f3d5065b35a *R/sulcimap-package.R
+bfb921c72d8a2a4b1b2265d983f99c5f *inst/CITATION
 efc04df8b53f2715137fc1a8b66aebad *inst/extdata/assets.zip
 ee8c4001ccaf71c2f5f59d57d62d42b8 *inst/extdata/assets_light.zip
 08ad3100f7081836ccc8a6b7bbd85c7d *man/clear_sulcimap_cache.Rd
@@ -14,4 +15,4 @@ ce38578c58b241347ca372f3393fffb3 *man/get_sulcimap_assets_dir.Rd
 ead33e0a73b7c91126e841bbfafbdaa7 *man/get_sulcus_image.Rd
 4dcc7f2e46e6272f4c622f7f43a5ed7f *man/list_sulci_images.Rd
 4459f698a038c2d5ef155a0d448290e9 *man/plot_sulci.Rd
-88b9e77023c2065f0b19a63dc519cf53 *man/sulcimap-package.Rd
+f15c03c16945814e200664b8cf63014e *man/sulcimap-package.Rd

@@ -4,12 +4,17 @@
 \name{sulcimap-package}
 \alias{sulcimap}
 \alias{sulcimap-package}
-\title{sulcimap: Mapping Brain Folding Patterns}
+\title{sulcimap: Mapping Cortical Folding Patterns}
 \description{
 Visualizes sulcal morphometry data derived from 'BrainVisa' \url{https://brainvisa.info/} including width, depth, surface area, and length. The package enables mapping of statistical group results or subject-level values onto cortical surface maps, with options to focus on all sulci or only selected regions of interest. Users can display all four measures simultaneously or restrict plots to chosen measures, creating composite, publication-quality brain visualizations in R to support the analysis and interpretation of sulcal morphology.
 }
 \author{
 \strong{Maintainer}: Mahan Shafie \email{mahan.shafie@unito.it}
+
+Authors:
+\itemize{
+  \item Fabrizio Pizzagalli
+}
 
 }
 \keyword{internal}
